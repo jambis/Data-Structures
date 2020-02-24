@@ -132,7 +132,7 @@ class DoublyLinkedList:
         while node:
             if node.value > maxNumber:
                 maxNumber = node.value
-            else:
-                node = node.next
+
+            node = node.next
 
         return maxNumber
